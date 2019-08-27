@@ -11,10 +11,10 @@ test('Multiply function exists', () => {
 
 
 
-test('multiply 5 * 5 to equal 25', mulTest);
+test('multiply 2 * 2 to equal 4', mulTest);
 
 function mulTest() {
-  expect(multiply(2, 2)).toBe(25);
+  expect(multiply(2, 2)).toBe(4);
 }
 
 
