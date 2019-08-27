@@ -13,7 +13,7 @@ const { multiply } = require('./domath');
 test('multiply 2 * 2 to equal 4', mulTest);
 
 function mulTest() {
-  expect(multiply(2, 2)).toBe(4);
+  expect(multiply(2, 2)).toBe(42);
 }
 
 
